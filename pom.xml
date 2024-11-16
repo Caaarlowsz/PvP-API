@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.caaarlowsz</groupId>
+	<artifactId>pvp-api</artifactId>
+	<packaging>jar</packaging>
+
+	<name>PvP-API</name>
+	<description>API para criação de plugins de Minecraft PvP.</description>
+	<version>0.0.0</version>
+
+	<repositories>
+		<!-- Spigot Repository-->
+		<repository>
+			<id>spigot-repo</id>
+			<url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!--Bukkit API-->
+		<dependency>
+			<groupId>org.bukkit</groupId>
+			<artifactId>bukkit</artifactId>
+			<version>1.8-R0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
